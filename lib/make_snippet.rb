@@ -12,6 +12,6 @@
 #     if entry_count == =<4
 #   end
 
-  word = "I had a great day today"
-  splitarray = word.split (" ")
-  puts splitarray.count
+# word = "I had a great day today"
+# splitarray = word.split (" ")
+# puts splitarray.count
