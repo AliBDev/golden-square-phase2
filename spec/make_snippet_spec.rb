@@ -2,7 +2,8 @@ require_relative "../lib/make_snippet.rb"
 
 RSpec.describe "make_snippet_method" do
   it "returns an empty string if passed an empty string" do
-    expect(make_snippet("")).to eq ""
+    result = make_snippet("")
+    expect(result).to eq ""
   end
 
   it "returns the diary entry if it's already less than 6 words" do
