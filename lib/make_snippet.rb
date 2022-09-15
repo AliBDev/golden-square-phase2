@@ -1,8 +1,3 @@
-# class MakeSnippet
-#   def initialize(input)
-#     @input = input
-#   end
-
 #   def make_snippet(str)
 #       entry = []
 #       str << entry
@@ -15,3 +10,7 @@
 # word = "I had a great day today"
 # splitarray = word.split (" ")
 # puts splitarray.count
+
+def make_snippet(diary)
+  return ""
+end
